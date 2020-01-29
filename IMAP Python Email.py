@@ -1,10 +1,10 @@
 import imaplib, email, os
 
-user = 'your_email'
-password = 'your_password'
+user = 'shrivastavabhishek78@gmail.com'
+password = 'Abhishek123@'
 imap_url = 'imap.gmail.com'
 #Where you want your attachments to be saved (ensure this directory exists) 
-attachment_dir = 'your_attachment_dir'
+attachment_dir = 'C:\\Users\Abhishek shrivastav\\Desktop\\Encry & Decry'
 # sets up the auth
 def auth(user,password,imap_url):
     con = imaplib.IMAP4_SSL(imap_url)
